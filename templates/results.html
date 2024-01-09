@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matching Lawyers</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Matching Lawyers</h2>
+        <p><strong>Your location:</strong> {{ user_location }}</p>
+
+        <div class="list-group">
+            {% for lawyer, distance in matching_lawyers %}
+                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">{{ lawyer.name }}</h5>
+                        <small>{{ distance }} km away</small>
+                    </div>
+                    <p class="mb-1">Hourly Fee: €{{ lawyer.budget }} | Location: {{ lawyer.location }}</p>
+                    <small>Expertise: {{ lawyer.expertise | capitalize }}</small>
+                </div>
+            {% endfor %}
+        </div>
+
+        <a href="{{ url_for('index') }}" class="btn btn-primary mt-4">Search Again</a>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

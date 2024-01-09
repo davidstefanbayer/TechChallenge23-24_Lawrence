@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lawyer Matcher</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Find a Lawyer with Lawrence</h1>
+        <form method="post" class="mt-4">
+            <div class="form-group">
+                <label for="max_fee">Maximum Hourly Fee:</label>
+                <input type="number" class="form-control" id="max_fee" name="max_fee">
+            </div>
+            <div class="form-group">
+                <label for="user_location">Your Location:</label>
+                <input type="text" class="form-control" id="user_location" name="user_location">
+            </div>
+            <div class="form-group">
+                <label for="problem_description">Please describe your problem in up to 2000 words:</label>
+                <textarea class="form-control" id="problem_description" name="problem_description" rows="8" maxlength="2000"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="expertise_needed">Please confirm your area of needed expertise is property by typing "property":</label>
+                <input type="text" class="form-control" id="expertise_needed" name="expertise_needed">
+            </div>
+            <button type="submit" class="btn btn-primary">Find Lawyers</button>
+        </form>
+
+        <!-- Results Section -->
+        <div id="results" class="mt-5">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
