@@ -27,7 +27,7 @@ The back-end functionality is handled by Python with Flask, ensuring efficient d
 
 Limitations
 
-The current prototype of Lawyer Finder, while functional and illustrative of our initial vision, does have certain limitations:
+The current prototype of Lawrence, while functional and illustrative of our initial vision, does have certain limitations:
 
 No Large Language Model (LLM) Integration: Unlike some advanced applications, our prototype does not yet use a large language model for natural
 language processing or complex query handling as showcased in Figma. This means the interaction is more straightforward and does not support conversational AI features.
