@@ -15,8 +15,6 @@ Features
 
 User-Friendly Interface: Designed for seamless user experience, ensuring ease of navigation and interaction.
 Advanced Search Filters: Enables users to find lawyers based on specific criteria like expertise, location, and budget.
-Interactive Map Integration: Provides a visual representation of lawyer locations, aiding users in geographical decision-making.
-Appointment Scheduling Feature: Enhances convenience by allowing users to schedule consultations directly through the application.
 Responsive Design: Ensures the application is accessible across various devices, maintaining functionality and aesthetics.
 Efficient Data Processing: The backend, powered by Flask, efficiently handles data processing, offering quick and accurate lawyer matching.
 
