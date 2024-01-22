@@ -6,24 +6,22 @@ David Bayer, and Jonas Walcher.
 
 We extend our heartfelt gratitude to Laura Herzer for her invaluable advice and support throughout the development process.
 
-The uniqueness of our project approach lies in its dual-development approach. We created a Figma Prototype, which was showcased during the Finals,
-to visually and interactively design the user experience. Alongside this, we developed a functional prototype using Python, CSS, HTML, and Flask.
+The uniqueness of our project approach lies in its dual-development approach. We created a Figma Prototype, which was showcased during the final pitch,
+to visually and interactively design the user experience. Before we ended up with this, we developed a more technical prototype using Python, CSS, HTML, and Flask.
 This dual approach allowed us to meticulously test and refine the user interface and experience in Figma, while simultaneously ensuring robust back-end functionality
 with our coded prototype. This strategy guarantees a comprehensive, efficient, and user-friendly tool that effectively connects individuals with legal professionals.
 
-Features
++++ Features of the Python Prototype +++
 
 User-Friendly Interface: Designed for seamless user experience, ensuring ease of navigation and interaction.
 Advanced Search Filters: Enables users to find lawyers based on specific criteria like expertise, location, and budget.
 Responsive Design: Ensures the application is accessible across various devices, maintaining functionality and aesthetics.
 Efficient Data Processing: The backend, powered by Flask, efficiently handles data processing, offering quick and accurate lawyer matching.
 
-
 Technical Implementation
 
 The application's front-end was developed using HTML and CSS, with a focus on responsive design principles.
 The back-end functionality is handled by Python with Flask, ensuring efficient data processing and user request handling.
-
 
 Limitations
 
@@ -60,6 +58,14 @@ Follow the provided setup instructions to get the application running locally fo
 Open terminal > switch directory > python3 app.py
 http://127.0.0.1:5000/ [port 5000]
 
+
++++ Features of the Figma Prototype +++
+
+In addition to our Python-based prototype, we have developed a complementary Figma Prototype to enhance the user experience design. This prototype serves as a visual and interactive representation of Lawrence, allowing us to experiment with design elements, user interface layouts, and the overall flow of user interactions. While the Python prototype was fundamentally important during our journey, the Figma Prototype is instrumental in refining the visual aesthetics and usability of the application, providing a platform for rapid iteration and feedback. It offers a clear and detailed visualization of the proposed features and design, making it an essential tool for both user testing and stakeholder presentations. This approach ensures that the final product is not only technically sound but also visually appealing and intuitive for users.
+
+Limitations
+
+Figma prototypes, while excellent for visualizing design and user interface, have limitations such as the inability to integrate with real back-end systems, limited interactivity beyond basic clickable elements, and the lack of real-world performance testing. They cannot replicate complex functionalities or dynamic content handling like a fully developed application, nor can they provide accurate insights into the application's scalability, security, or performance under varied real-world conditions. Consequently, while Figma is invaluable for design and usability testing, it cannot replace the need for a fully developed and tested application.
 
 Conclusion
 
