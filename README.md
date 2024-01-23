@@ -1,8 +1,7 @@
 Lawrence (Consumer Lawyer Group 3) - Tech Challenge (UnternehmerTUM) [WI001188]
 
 Lawrence is a comprehensive tool developed for the Tech Challenge (UnternehmerTUM) [WI001188], aimed at simplifying the process of finding legal assistance.
-The project, due on January 23rd, 2024, is a collaborative effort by a skilled team consisting of Sarah Störzel, Mohammad Sahbi, Hafez Pirzadeh,
-David Bayer, and Jonas Walcher.
+The project, due on January 23rd, 2024, is a collaborative effort by a skilled team consisting of Sarah Stoetzel, Mohammad Sahbi Faidi, Hafez Pirzadeh, David Bayer, and Jonas Walcher.
 
 We extend our heartfelt gratitude to Laura Herzer for her invaluable advice and support throughout the development process.
 
